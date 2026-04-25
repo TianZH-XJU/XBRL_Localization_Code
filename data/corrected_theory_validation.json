@@ -1,0 +1,23 @@
+{
+  "experiment": "corrected_theory_validation",
+  "equivalence_class": {
+    "mean_size": 1.0,
+    "max_size": 1,
+    "ceiling_mean": 1.0
+  },
+  "candidate_set": {
+    "mean_actual": 2.3333333333333335,
+    "mean_bound": 2.6666666666666665,
+    "bound_validates": true
+  },
+  "key_findings": [
+    "Computed TRUE E(r) equivalence class (not proxy)",
+    "Theorem 3.1 ceiling depends on prior and likelihood",
+    "Theorem 4.1 bound holds (union bound is loose)"
+  ],
+  "invalidated_claims": [
+    "Removed: 'Recall@5 validates Thm 4.1'",
+    "Removed: 'Greedy \u2248 Thm 3.1 bound (proxy)'",
+    "Removed: 'Degree asymmetry explains gap (p=0.59)'"
+  ]
+}

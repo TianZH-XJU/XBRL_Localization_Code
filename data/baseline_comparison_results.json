@@ -1,0 +1,38 @@
+{
+  "iteration": 3,
+  "candidate_recall": {
+    "total_target": {
+      "recall_5": 1.0,
+      "n": 10
+    },
+    "component_target": {
+      "recall_5": 1.0,
+      "n": 14
+    }
+  },
+  "baselines": {
+    "greedy_violation": {
+      "top1": 0.5833333333333334,
+      "top3": 0.9583333333333334,
+      "top5": 1.0,
+      "mrr": 0.7743055555555555
+    },
+    "leave_one_out": {
+      "top1": 0.5833333333333334,
+      "top3": 0.9583333333333334,
+      "top5": 1.0,
+      "mrr": 0.7743055555555555
+    },
+    "minimal_residual": {
+      "top1": 0.5833333333333334,
+      "top3": 0.9583333333333334,
+      "top5": 1.0,
+      "mrr": 0.7743055555555555
+    }
+  },
+  "oracle": {
+    "top1": 1.0,
+    "top3": 1.0
+  },
+  "value_shift_total_count": 3
+}
